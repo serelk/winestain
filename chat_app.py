@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_openai.chat_models import ChatOpenAI
+# from langchain_openai.chat_models import ChatOpenAI
 
 import streamlit as st
 import random
@@ -15,9 +15,9 @@ pinecone_api_key = st.secrets["pinecone_api_key"]
 
 
 
-def generate_response(input_text):
-    model = ChatOpenAI(temperature=0.7, api_key=openai_api_key)
-    st.info(model.invoke(input_text))
+# def generate_response(input_text):
+#     model = ChatOpenAI(temperature=0.7, api_key=openai_api_key)
+#     st.info(model.invoke(input_text))
 
 
 
